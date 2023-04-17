@@ -4,7 +4,7 @@ project(tiny-renderer VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(tiny-renderer main.cpp source/tgaimage.cpp)
+add_executable(tiny-renderer main.cpp source/tgaimage.cpp source/model.cpp)
 include_directories(include/)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
